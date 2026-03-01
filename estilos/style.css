@@ -1,15 +1,12 @@
 @charset "UTF-8";
 
-/* Configuração geral*/
+/*
+    Paletas de Cores
+    Cinza: #949DA6
+    cor de pele: #D9BD9C
+    marrom: #786B63
+    preto: #0D0D0D
+    
+*/
 
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body{
-    background: url(../imagens/pexels-matteo-milan-136935423-13793585.jpg);
-    background-size: cover;
-}
 
