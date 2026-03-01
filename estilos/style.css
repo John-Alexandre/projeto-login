@@ -18,9 +18,12 @@
 
 
 body, html{
+    
     background-color:#949DA6 ;
     height: 100vh;
     width: 100vw;
+    background-position: center center;
+    background-size: cover;
 }
 
 main{
@@ -36,16 +39,19 @@ section#login{
     transform: translate(-50%, -50%);
     overflow: hidden;
 
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.486);
     width: 350px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.438);
+
+    transition: width .3s, heigth .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
     display: block;
-    background: #949DA6 url(../imagens/pexels-matteo-milan-136935423-13793585.jpg) ;
+    background:#949DA6 url(../imagens/pexels-matteo-milan-136935423-13793585.jpg) no-repeat ;
     background-size: cover;
     height: 250px;
     background-position: center center;
